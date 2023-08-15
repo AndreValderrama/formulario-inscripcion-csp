@@ -13,3 +13,32 @@ border: none;
 border-radius: 8px;
 color: var(--white);
 }
+
+
+.key--value{
+  border-radius: 8px 0px 0px 8px;
+}
+
+.value {
+    padding: 1px;
+    display: flex;
+    font-family: var(--body-font);
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    font-style:normal;
+    height: 30px;
+    width: 100px;
+    background-color: var(--white);
+    border:  2px solid var(--blue) ;
+    border-color: var(--blue);
+    border-radius:0px 8px 8px 0px ;
+    color: var(--black);  
+}
+
+.container-key-value{
+    display: flex;
+    
+    align-content: baseline;
+}
+
