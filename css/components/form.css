@@ -1,0 +1,15 @@
+.key {
+padding: 1px;
+display: flex;
+font-family: var(--body-font);
+font-size: 14px;
+font-weight: bold;
+text-align: center;
+font-style:normal;
+height: 30px;
+width: 100px;
+background-color: var(--blue);
+border: none;
+border-radius: 8px;
+color: var(--white);
+}
