@@ -42,3 +42,9 @@ color: var(--white);
     align-content: baseline;
 }
 
+.container {
+    grid-template-columns: 8px 27.75px 20.18px 12.76px 60px;
+    grid-template-rows: 90px 90px;
+    border: 0.5px;
+    border-color: var(--black);
+}
