@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+:root {
+  --black: #000000;
+  --blue: #01569e;
+  --white: #ffffff;
+  --body-font: "Calibri" ,"Oswald", sans-serif;
+  --normal-size: 18px;
+  --foot-size: 14px;
+  --script-size: 12px;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
