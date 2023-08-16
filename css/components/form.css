@@ -1,10 +1,20 @@
 
 .container-key-value{
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     height: 7.75mm;
     margin-right: 3px;
     
     
+}
+
+.container-predio{
+  margin-left: 8mm;
+  margin-right: 8mm;
+  width: 210mm;
+  margin-bottom: 3px;
+  
 }
 
 
@@ -21,6 +31,18 @@ background-color: var(--blue);
 border: none;
 border-radius: 8px;
 color: var(--white);
+
+}
+
+.container-data{
+  display: flex;
+  height: 42mm;
+  width: 194mm;
+  padding-right: 1px;
+  margin: 8mm 0px 3px 8mm;
+  border:  2px solid var(--blue) ;
+  border-color: var(--blue);
+  border-radius: 8px;
 }
 
 .large--text{
@@ -38,6 +60,10 @@ color: var(--white);
   
 }
 
+.etiquetas{
+  margin-right: 2px;
+    
+}
 
 .value {
     display: block;
@@ -53,9 +79,7 @@ color: var(--white);
     border:  2px solid var(--blue) ;
     border-color: var(--blue);
     border-radius: 8px;
-    color: var(--black);  
-    
-    
+    color: var(--black);   
 }
 
 .input--value{
@@ -71,8 +95,37 @@ color: var(--white);
       border-radius:0px 8px 8px 0px ;
     margin: 0px;
     }
-  
+  .dimension-1{
+    width: 27.75mm;
+  }
+  .dimension-2{
+    width: 100.75mm;
+  }
+  .dimension-3{
+    width: 41.5mm;
+  }
+  .dimension-4{
+    width: 32.94mm;
+  }
+  .dimension-5{
+    width: 21.77mm;
+  }
 
+  .dimension-6{
+    width: 53mm;
+  }
+  .dimension-7{
+    width: 15mm;
+  }
+  .dimension-8 {
+    width: 10mm;
+  }
+  .dimension-9 {
+    width: 15.6mm;
+  }
+  .dimension-10 {
+    width: 79mm;
+  }
 .general-row-grid {
     
     margin-bottom: 3px;
@@ -95,6 +148,7 @@ color: var(--white);
 .height__8{
     height: 8mm; 
     padding-top: 0px; 
+    margin-bottom: 3px;
   }
 .height__8_24{
     height: 8mm; 
@@ -103,4 +157,17 @@ color: var(--white);
 
 input{
     width: 100%;
+    height: 100%;
+}
+
+p{
+  padding: 4px;
+  font-family: var(--body-font);
+  text-align: justify;
+}
+
+.font-par{
+  font-size: 6.6pt;
+  font-weight: bold;
+  line-height: 75%;
 }
