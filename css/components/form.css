@@ -1,63 +1,106 @@
+
+.container-key-value{
+    display: flex;
+    height: 7.75mm;
+    margin-right: 3px;
+    
+    
+}
+
+
 .key {
-padding: 1px;
-display: flex;
+
+display: block;
 font-family: var(--body-font);
-font-size: 14px;
+line-height: 75%;
+font-size: 0.78em;
 font-weight: bold;
 text-align: center;
 font-style:normal;
-height: 30px;
-width: 100px;
 background-color: var(--blue);
 border: none;
 border-radius: 8px;
 color: var(--white);
 }
 
+.large--text{
+  font-size: 0.68em;
+  line-height: 100%;
 
-.key--value{
-  border-radius: 8px 0px 0px 8px;
+}
+.one-line{
+   padding: 6px;
 }
 
+.two-line{
+
+  line-height: 60%;
+  
+}
+
+
 .value {
-    padding: 1px;
-    display: flex;
+    display: block;
     font-family: var(--body-font);
-    font-size: 14px;
-    font-weight: bold;
+    line-height: 100%;
+    font-size: .65em;
+    margin-right: 1px;
+    margin-left: 1px;
     text-align: center;
+    font-weight: bold;
     font-style:normal;
-    height: 30px;
-    width: 100px;
     background-color: var(--white);
     border:  2px solid var(--blue) ;
     border-color: var(--blue);
-    border-radius:0px 8px 8px 0px ;
+    border-radius: 8px;
     color: var(--black);  
-}
-
-.container-key-value{
-    display: flex;
     
-    align-content: baseline;
+    
 }
 
-.item-a {
-    display: flex;
-    padding: 1px;
-    background-color: var(--blue);
-    box-sizing: border-box;
-    border: solid 1px var(--white);
+.input--value{
+  height: 7.75mm;
 }
 
-.general-grid {
+.key--value{
+    border-radius: 8px 0px 0px 8px;
+    margin: 0px; 
+  }
+  
+  .value--key{
+      border-radius:0px 8px 8px 0px ;
+    margin: 0px;
+    }
+  
+
+.general-row-grid {
+    
+    margin-bottom: 3px;
     display: grid;
     width: 210mm;
-    padding: 8mm;
-    grid-template-columns: 27.75mm 20.18mm 12.76mm 21.77mm 13.32mm 22.49mm 19.67mm 17.98mm 20.71mm 17.4mm ;
-    grid-template-rows: 90px 90px;
-    
-    border: 0.5px solid var(--black);
-    
+    height: 7.75mm;
+    padding: 0px 8mm 0px 8mm;
+    grid-template-columns: 27.75mm 20.18mm 12.76mm
+                        21.77mm 13.32mm 22.49mm
+                        19.67mm 17.98mm 20.71mm 17.4mm ;
+ /**border: 3px solid var(--black) ;**/
+
 }
 
+.height__10_40{
+  height: 10.40mm; 
+   
+}
+
+.height__8{
+    height: 8mm; 
+    padding-top: 0px; 
+  }
+.height__8_24{
+    height: 8mm; 
+    padding-top: 6px; 
+  }
+
+input{
+    width: 100%;
+}
