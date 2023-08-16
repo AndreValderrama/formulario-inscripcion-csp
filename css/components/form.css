@@ -42,9 +42,22 @@ color: var(--white);
     align-content: baseline;
 }
 
-.container {
-    grid-template-columns: 8px 27.75px 20.18px 12.76px 60px;
-    grid-template-rows: 90px 90px;
-    border: 0.5px;
-    border-color: var(--black);
+.item-a {
+    display: flex;
+    padding: 1px;
+    background-color: var(--blue);
+    box-sizing: border-box;
+    border: solid 1px var(--white);
 }
+
+.general-grid {
+    display: grid;
+    width: 210mm;
+    padding: 8mm;
+    grid-template-columns: 27.75mm 20.18mm 12.76mm 21.77mm 13.32mm 22.49mm 19.67mm 17.98mm 20.71mm 17.4mm ;
+    grid-template-rows: 90px 90px;
+    
+    border: 0.5px solid var(--black);
+    
+}
+
