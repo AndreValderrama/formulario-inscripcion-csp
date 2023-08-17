@@ -34,15 +34,24 @@ color: var(--white);
 
 }
 
+.space{
+  margin: 150px;
+}
 .container-data{
   display: flex;
-  height: 42mm;
+  height: auto;
   width: 194mm;
   padding-right: 1px;
-  margin: 8mm 0px 3px 8mm;
+  margin:  0px 3px 8mm;
   border:  2px solid var(--blue) ;
   border-color: var(--blue);
   border-radius: 8px;
+}
+
+.sign-box{
+display: flex;
+flex-direction: column-reverse;
+
 }
 
 .large--text{
@@ -56,7 +65,7 @@ color: var(--white);
 
 .two-line{
 
-  line-height: 60%;
+  line-height: 75%;
   
 }
 
@@ -145,13 +154,18 @@ color: var(--white);
    
 }
 
+.height__22_50{
+  height: 22.50mm; 
+   
+}
+
 .height__8{
     height: 8mm; 
     padding-top: 0px; 
     margin-bottom: 3px;
   }
-.height__8_24{
-    height: 8mm; 
+.height__8_5{
+    height: 8.5mm; 
     padding-top: 6px; 
   }
 
@@ -170,4 +184,15 @@ p{
   font-size: 6.6pt;
   font-weight: bold;
   line-height: 75%;
+}
+
+font-detail{
+  font-size: 16pt;
+  font-weight: bold;
+  line-height: 125%;
+}
+
+.head{
+  margin-right: 3px;
+  font-size: 7pt;
 }
